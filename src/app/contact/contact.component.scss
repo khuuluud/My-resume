@@ -1,0 +1,38 @@
+#contact{
+    background-image: url(../../assets/imgs/noise.png) !important;
+    background-color: #161616 !important;
+    color: white;
+
+}
+.fw-bolder{
+    font-size: 40px;
+}
+.form-control:focus {
+    border-color: yellowgreen !important;
+
+    box-shadow:0 0 0 0.2rem rgba(153, 205, 50, 0.566);
+}
+.btn-outline-success{
+    background-color: yellowgreen !important;
+    color: white !important;
+    border-color: transparent !important;
+    &:hover{
+        background-color: white !important;
+        color: yellowgreen !important;
+    }
+}
+
+input ,textarea{
+   margin-top: 30px;
+    background-color: transparent !important;
+    border: 2px solid yellowgreen;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    &:focus{
+        outline: none;
+    }
+}
+::placeholder{
+    color: white;
+}

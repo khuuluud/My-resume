@@ -1,0 +1,44 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Overlock:ital@1&display=swap');
+
+
+$bgColor:yellowgreen;
+$text-color:#9acd32;
+$font-family: "Overlock", sans-serif !important; 
+$box-shadow: rgba(153, 205, 50, 0.868);
+
+
+body {
+    
+   
+    font-family: $font-family;
+}
+
+#navbar{
+    z-index: 999;
+}
+
+.font-main{
+    font-family: $font-family;
+}
+.text-main{
+    color: $text-color;
+}
+.bg-main{
+    background-color: $bgColor;
+}
+.box-shadow{
+    box-shadow: $box-shadow;
+}
+
+
+.layer{
+    background: rgba(0, 0, 0, 0.7);
+    inset: 0;
+    height: 100%;
+    width: 100%;
+}
+
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

@@ -1,0 +1,211 @@
+
+
+
+.about{
+    background-image: url(../../assets/imgs/noise.png) !important;
+    background-color: white !important;
+   
+}
+
+
+.main {
+  --dark: #161616;
+  overflow: hidden;
+ 
+}
+
+section {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background: white;
+  background-image: url(../../assets/imgs/noise.png);
+}
+
+.flip {
+  background-image: url(../../assets/imgs/noise.png);
+  background-color: white;
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  position: absolute;
+  display: block;
+  text-align: center;
+  font-size: 50px;
+  z-index: 2;
+  width: 50%;
+  text-transform: uppercase;
+  font-weight: 900;
+  // color: rgb(237, 237, 237);
+  // color: black;
+  top: calc(50vh - 56px);
+
+  &.up {
+    right: 0;
+  }
+
+  &.down {
+    left: 0;
+  }
+}
+
+.box {
+  height: 1.2vh;
+  width: 50vw;
+  margin-bottom: -0.2vh;
+  
+  background-color: #161616 !important;
+  display: block;
+}
+.container{
+  background: hsla(0, 0%, 100%, 0.543)
+}
+.about {
+  margin: 0;
+  // background: #fff;
+  font-family: sans-serif;
+  scroll-behavior: none;
+}
+
+.title {
+  font-size: max(2vw, 24px);
+  line-height: 1.1;
+  padding-bottom: .4em;
+  color: rgb(255, 255, 255);
+  text-shadow: 0 2px 2px rgba(0, 0, 0, .1);
+}
+
+.text {
+  font-size: max(1vw, 15px);
+  line-height: 1.4;
+  overflow: hidden;
+  padding-bottom: 20px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.accordions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20vh;
+}
+
+// .accordion {
+//   background: linear-gradient(200deg, rgb(173, 219, 158) 13.57%, rgba(126, 195, 144, 0.858) 98.38%);
+//   width: max(50vw, 280px);
+//   padding: 25px 30px 10px;
+//   border-radius: 15px;
+//   margin-bottom: 40px;
+//   box-shadow: 0 30px 30px -10px rgba(0, 0, 0, .3);
+  
+//   &:nth-child(2) {
+//     background: linear-gradient(200deg, rgb(139, 173, 114) 13.57%, rgb(144, 207, 147) 98.38%);
+//   }
+  
+//   &:nth-child(3) {
+//     background: linear-gradient(200deg, rgb(101, 187, 118) 13.57%, rgb(70, 111, 171) 98.38%);
+//   }
+  
+//   &:nth-child(4) {
+//     background: linear-gradient(200deg, #15d18f 13.57%, #61c28d 98.38%);
+//   }
+// }
+
+.spacer {
+  height: 70vh;
+}
+
+// @media (max-width: 480px) {
+//   .accordion {
+//     padding: 15px 20px 8px;
+//   }
+//   .title {
+//     font-size: 20px;
+//   }
+
+// }
+
+
+
+.tes{
+  background-image: url(../../assets/imgs/noise.png) !important;
+  background-color: #161616 !important;
+  font-size: 18px;
+  text-align: center;
+  padding-top: 30px;
+
+}
+
+.accordion{ 
+  display: inline-block;
+  text-align: left;
+  margin: 1%;
+  width: 70%; 
+  background-image: url(../../assets/imgs/noise.png);
+  background-color: white;
+  border-radius: 15px;
+  &:hover{
+  
+    // max-height technique
+    .accordion-content{
+      // If use the "height: auto", the effect not works. Is necessary some value for the CSS create a CSS animate, and we can use "max-height" with a great value for emulate this effect.
+      max-height: 300px;
+    }
+  
+  }
+}
+
+.accordion-content{
+  -webkit-transition: max-height 1s; 
+  -moz-transition: max-height 1s; 
+  -ms-transition: max-height 1s; 
+  -o-transition: max-height 1s; 
+  transition: max-height 1s;  
+  background: transparent;
+  overflow: hidden;
+  // "height: 0" not work with css transitions
+  max-height: 0;
+}
+
+.accordion-inner{
+  padding: 0 15px;
+}
+
+.accordion-toggle{
+  -webkit-transition: background .1s linear;   
+  -moz-transition: background .1s linear;   
+  -ms-transition: background .1s linear;   
+  -o-transition: background .1s linear;   
+  transition: background .1s linear;   
+  background-image: url(../../assets/imgs/noise.png);
+  
+  border-radius: 3px;
+  color:black;
+  display: block;
+  font-size: 30px;
+  margin: 0 0 10px;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  
+  // &:hover{
+  //   background: darken(#00b8c9, 15%);
+  // }
+  
+}
+.text{
+  font-size:40px ;
+  color: black;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 10px;
+}
+
+
+
+
+
+
+
+

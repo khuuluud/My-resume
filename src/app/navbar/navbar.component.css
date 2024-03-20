@@ -1,0 +1,9 @@
+.nav-menu {
+  z-index: 999;
+  color: white;
+}
+
+.text-decoration-none {
+  width: 56px;
+  background-color: red;
+}/*# sourceMappingURL=navbar.component.css.map */

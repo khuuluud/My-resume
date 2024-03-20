@@ -1,0 +1,70 @@
+#resume {
+  background-image: url(../../assets/imgs/noise.png) !important;
+  background-color: #161616 !important;
+
+}
+
+.imag {
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.495);
+  overflow: hidden;
+  border-radius: 50%;
+  object-fit: cover;
+
+}
+img{
+  transition: all 0.5s;
+}
+img:hover {
+  transform: scale(1.1);
+  overflow: hidden;
+}
+
+.row {
+  width: 75%;
+  margin: auto;
+}
+
+span {
+  font-size: 35px;
+}
+
+.btn-outline-success {
+  background-color: white !important;
+  border-color: yellowgreen !important;
+  color: yellowgreen !important;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+.btn-outline-success:hover {
+  background-color: yellowgreen !important;
+  border-color: white !important;
+  color: white !important;
+}
+
+p {
+  color: white;
+}
+
+i {
+  color: white;
+}
+@media screen and (max-width: 768px) {
+  .d-flex {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .project-Details{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  
+}
