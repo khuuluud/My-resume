@@ -43,6 +43,7 @@ span {
   color: white !important;
 }
 
+
 p {
   color: white;
 }
@@ -64,6 +65,14 @@ i {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+  button{
+    margin-bottom: 10px;
+  }
+  .view-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
   }
 
   

@@ -5,7 +5,7 @@
 // }
 
 
-#navbar {
+.navbar {
     z-index: 999;
 }
 
@@ -38,4 +38,7 @@
 }
 .navbar-expand-lg{
     background-color: none;
+}
+.navbar-toggler{
+    background-color: white;
 }
