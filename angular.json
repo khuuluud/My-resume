@@ -40,13 +40,10 @@
               "src/styles.scss"
             ],
             "scripts": [
-              "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js",
-              "./node_modules/@fortawesome/fontawesome-free/js/all.min.js",
+              "./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js",
+            "./node_modules/@fortawesome/fontawesome-free/js/all.min.js",
               "./node_modules/jquery/dist/jquery.min.js",
-              "./node_modules/typed.js/dist/typed.umd.js",
-              "node_modules/gsap/dist/all.js",
-              "node_modules/gsap/dist/ScrollTrigger.min.js",
-              "node_modules/gsap/ScrollTrigger.js"
+              "./node_modules/typed.js/dist/typed.umd.js"
               
             ]
           },

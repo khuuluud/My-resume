@@ -49,11 +49,11 @@ export class ResumeComponent  {
   }
  
   sourceFive() {
-    const url = 'https://github.com/khuuluud/Recipes-Frontend'; 
+    const url = 'https://github.com/khuuluud/Client-Portfolio'; 
     window.open(url, '_blank');
   }
   liveFive() {
-    const url = 'https://recipes-frontend-kholouds-projects.vercel.app/'; 
+    const url = 'https://client-portfolio-kholouds-projects.vercel.app/'; 
     window.open(url, '_blank');
   }
 
