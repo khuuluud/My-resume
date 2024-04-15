@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import * as aos from 'aos';
 import {
   FormControl,
   FormGroupDirective,
@@ -7,9 +8,7 @@ import {
   FormsModule,
   ReactiveFormsModule,
 } from '@angular/forms';
-import {ErrorStateMatcher} from '@angular/material/core';
-import {MatInputModule} from '@angular/material/input';
-import {MatFormFieldModule} from '@angular/material/form-field';
+
 @Component({
   selector: 'app-contact',
   templateUrl: './contact.component.html',
@@ -25,7 +24,10 @@ import {MatFormFieldModule} from '@angular/material/form-field';
 
 export class ContactComponent {
  
-  // emailFormControl = new FormControl('', [Validators.required, Validators.email]);
+  emailFormControl = new FormControl('', [Validators.required, Validators.email]);
 
   // matcher = new MyErrorStateMatcher();
+  ngOnInit(): void {
+    aos.init()
+  }
 }

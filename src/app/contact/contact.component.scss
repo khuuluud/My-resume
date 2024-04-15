@@ -9,8 +9,11 @@
 }
 .form-control:focus {
     border-color: yellowgreen !important;
-
-    box-shadow:0 0 0 0.2rem rgba(153, 205, 50, 0.566);
+    box-shadow: none;
+    
+}
+.form-control{
+    color: white !important;
 }
 .btn-outline-success{
     background-color: yellowgreen !important;
@@ -31,8 +34,9 @@ input ,textarea{
     border-right: none;
     &:focus{
         outline: none;
+    
     }
 }
 ::placeholder{
-    color: white;
+    color: white !important;
 }
